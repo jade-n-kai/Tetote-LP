@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------------------
+  font
+------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+
+
+/*------------------------------------------------------------------------------
+  reset
+------------------------------------------------------------------------------*/
+
+html,
+input,
+textarea,
+select,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif, "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", Meiryo;
+  font-weight: 400;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans JP", sans-serif, "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", Meiryo;
+  font-size: 14px;
+  position: relative;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+}
+
+.outer-block {
+  min-width: 320px;
+}
+
+.inner-block {
+  padding: 0 28px;
+  width: auto;
+}
+
+#wrapper {
+  min-width: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+input[type="submit"] {
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+select,
+textarea {
+  font-size: 16px !important;
+}
+
+
+
+/*------------------------------------------------------------------------------
+  css
+------------------------------------------------------------------------------*/
+
+.pc {
+  display: none !important;
+}
+
+.mid-size {
+  display: block !important;
+}
+
+.sp {
+  display: block !important;
+}
